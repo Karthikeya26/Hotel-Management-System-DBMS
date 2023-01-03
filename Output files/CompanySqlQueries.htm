@@ -1,0 +1,1417 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="CompanySqlQueries_files/filelist.xml">
+<link rel=Edit-Time-Data href="CompanySqlQueries_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>admin</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>admin</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2021-07-31T07:05:00Z</o:Created>
+  <o:LastSaved>2021-07-31T07:05:00Z</o:LastSaved>
+  <o:Pages>10</o:Pages>
+  <o:Words>562</o:Words>
+  <o:Characters>3208</o:Characters>
+  <o:Lines>26</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>3763</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="CompanySqlQueries_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="CompanySqlQueries_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-IN</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Tahoma;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-IN;
+	font-weight:bold;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:560019927;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1817317550 940493120 1074331673 1074331675 1074331663 1074331673 1074331675 1074331663 1074331673 1074331675;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-weight:bold;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-IN link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;line-height:115%;font-family:"Times New Roman","serif"'>QUERIES
+ON COMPANY DATABASE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><span
+style='mso-tab-count:3'>                             </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+0:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the birthdate and address of the employee(s) whose name is ‘John B Smith’.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1060" type="#_x0000_t75"
+ style='width:451.5pt;height:73.5pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=98
+src="CompanySqlQueries_files/image002.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+1:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the name and address of all employees who work for the ‘Research’ department<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
+ o:spid="_x0000_i1059" type="#_x0000_t75" style='width:451.5pt;height:97.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=130
+src="CompanySqlQueries_files/image004.jpg" v:shapes="Picture_x0020_2"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+1A:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Ambiguous
+attribute names<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
+ o:spid="_x0000_i1058" type="#_x0000_t75" style='width:451.5pt;height:29.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=39
+src="CompanySqlQueries_files/image006.jpg" v:shapes="Picture_x0020_3"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+1B:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Aliasing<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
+ o:spid="_x0000_i1057" type="#_x0000_t75" style='width:451.5pt;height:98.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=131
+src="CompanySqlQueries_files/image008.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+1C:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+all the attribute values of EMPLOYEE tuples who work in department number 5<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_5"
+ o:spid="_x0000_i1056" type="#_x0000_t75" style='width:451.5pt;height:156pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=208
+src="CompanySqlQueries_files/image010.jpg" v:shapes="Picture_x0020_5"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+1D:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+all the attributes of an EMPLOYEE and the attributes of the DEPARTMENT he or
+she works in for every employee of the ‘Research’ department.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6"
+ o:spid="_x0000_i1055" type="#_x0000_t75" style='width:451.5pt;height:235.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image011.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=314
+src="CompanySqlQueries_files/image012.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+2:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>For
+every project located in ‘Stafford’, list the project number, the controlling
+department number and the department manager’s last name, address and
+birthdate.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_9"
+ o:spid="_x0000_i1054" type="#_x0000_t75" style='width:450.75pt;height:79.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image013.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=106
+src="CompanySqlQueries_files/image014.jpg" v:shapes="Picture_x0020_9"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+3:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the name of each employee who works on all the projects controlled by
+department number 5<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7"
+ o:spid="_x0000_i1053" type="#_x0000_t75" style='width:451.5pt;height:121.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=162
+src="CompanySqlQueries_files/image016.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+3B:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_8"
+ o:spid="_x0000_i1052" type="#_x0000_t75" style='width:451.5pt;height:41.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=55
+src="CompanySqlQueries_files/image018.jpg" v:shapes="Picture_x0020_8"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+4:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>Make a list of project numbers
+for projects that involve an employee whose last name is ‘Smith’, either as a
+worker or as a manager of the department that controls the project<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_10"
+ o:spid="_x0000_i1051" type="#_x0000_t75" style='width:450.75pt;height:90pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=120
+src="CompanySqlQueries_files/image020.jpg" v:shapes="Picture_x0020_10"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+4A:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Reformulation
+of query 4 using nested queries<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_11"
+ o:spid="_x0000_i1050" type="#_x0000_t75" style='width:450.75pt;height:102pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=136
+src="CompanySqlQueries_files/image022.jpg" v:shapes="Picture_x0020_11"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+5:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the names of all employees who have two or more dependents<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_12"
+ o:spid="_x0000_i1049" type="#_x0000_t75" style='width:451.5pt;height:81.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image023.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=109
+src="CompanySqlQueries_files/image024.jpg" v:shapes="Picture_x0020_12"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+6:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the names of employees who have no dependents.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_13"
+ o:spid="_x0000_i1048" type="#_x0000_t75" style='width:450.75pt;height:213.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image025.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=285
+src="CompanySqlQueries_files/image026.jpg" v:shapes="Picture_x0020_13"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+7:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>List
+the names of managers who have at least one dependent<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_14"
+ o:spid="_x0000_i1047" type="#_x0000_t75" style='width:451.5pt;height:83.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image027.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=111
+src="CompanySqlQueries_files/image028.jpg" v:shapes="Picture_x0020_14"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+8:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>For each employee, retrieve the
+employee’s first and last name, and the first and last name of his or her
+immediate supervisor.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_16"
+ o:spid="_x0000_i1046" type="#_x0000_t75" style='width:451.5pt;height:114pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image029.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=152
+src="CompanySqlQueries_files/image030.jpg" v:shapes="Picture_x0020_16"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+9:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Select
+all EMPLOYEE SSNs in the database<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_17"
+ o:spid="_x0000_i1045" type="#_x0000_t75" style='width:208.5pt;height:138.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image031.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=278 height=185
+src="CompanySqlQueries_files/image031.png" v:shapes="Picture_x0020_17"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+10:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Select
+all combination of EMPLOYEE SSN and DEPARTMENT DNAME in the database<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_18"
+ o:spid="_x0000_i1044" type="#_x0000_t75" style='width:309.75pt;height:277.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image032.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=413 height=370
+src="CompanySqlQueries_files/image032.png" v:shapes="Picture_x0020_18"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+11:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the salary of every employee.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_19"
+ o:spid="_x0000_i1043" type="#_x0000_t75" style='width:221.25pt;height:135.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image033.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=295 height=181
+src="CompanySqlQueries_files/image033.png" v:shapes="Picture_x0020_19"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+12:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+all employees whose address is in Houston, Texas.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_15"
+ o:spid="_x0000_i1042" type="#_x0000_t75" style='width:451.5pt;height:105.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image034.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=141
+src="CompanySqlQueries_files/image034.png" v:shapes="Picture_x0020_15"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+12A:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Find
+all employees who were born during the 1950s<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_20"
+ o:spid="_x0000_i1041" type="#_x0000_t75" style='width:404.25pt;height:100.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image035.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=539 height=134
+src="CompanySqlQueries_files/image035.png" v:shapes="Picture_x0020_20"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+13:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Show
+the resulting salaries if every employee working on the ‘<span class=SpellE>ProductX</span>’
+project is given a 10 <span class=SpellE>percent</span> raise<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_22"
+ o:spid="_x0000_i1040" type="#_x0000_t75" style='width:450.75pt;height:82.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image036.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=110
+src="CompanySqlQueries_files/image037.jpg" v:shapes="Picture_x0020_22"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+14:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+all employees in department 5 whose salary is between £30,000 and £40,000<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_21"
+ o:spid="_x0000_i1039" type="#_x0000_t75" style='width:451.5pt;height:148.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image038.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=198
+src="CompanySqlQueries_files/image039.jpg" v:shapes="Picture_x0020_21"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+15:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>Retrieve a list of employees and
+the projects they are working on, ordered by department and, within each<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+class=GramE><span style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>department</span></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>,
+ordered alphabetically by last name, first name.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_23"
+ o:spid="_x0000_i1038" type="#_x0000_t75" style='width:451.5pt;height:201pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image040.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=268
+src="CompanySqlQueries_files/image041.jpg" v:shapes="Picture_x0020_23"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+<span class=GramE>16 ,</span> 16A and 16B:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the name of each employee who has a dependent with the same first name and same
+sex as the employee<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_24"
+ o:spid="_x0000_i1037" type="#_x0000_t75" style='width:451.5pt;height:99pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image042.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=132
+src="CompanySqlQueries_files/image043.jpg" v:shapes="Picture_x0020_24"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+17:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the social security numbers of all employees who work on project number 1, 2 or
+3.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_25"
+ o:spid="_x0000_i1036" type="#_x0000_t75" style='width:419.25pt;height:196.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image044.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=559 height=262
+src="CompanySqlQueries_files/image044.png" v:shapes="Picture_x0020_25"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+18:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the names of all employees who do not have supervisors.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_26"
+ o:spid="_x0000_i1035" type="#_x0000_t75" style='width:392.25pt;height:69.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image045.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=523 height=93
+src="CompanySqlQueries_files/image045.png" v:shapes="Picture_x0020_26"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+19:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Find
+the sum of the salaries of all employees, the maximum salary, the minimum
+salary, and the average salary.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_27"
+ o:spid="_x0000_i1034" type="#_x0000_t75" style='width:451.5pt;height:66pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image046.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=88
+src="CompanySqlQueries_files/image046.png" v:shapes="Picture_x0020_27"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+20:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>Find the sum of the salaries of
+all employees of the ‘Research’ department, as well as the maximum salary, the<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+class=GramE><span style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>minimum</span></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>
+salary, and the average salary in this department.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_28"
+ o:spid="_x0000_i1033" type="#_x0000_t75" style='width:451.5pt;height:74.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image047.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=99
+src="CompanySqlQueries_files/image048.jpg" v:shapes="Picture_x0020_28"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+21:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the total number of employees in the company.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_29"
+ o:spid="_x0000_i1032" type="#_x0000_t75" style='width:234pt;height:74.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image049.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=312 height=99
+src="CompanySqlQueries_files/image049.png" v:shapes="Picture_x0020_29"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+22:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Retrieve
+the number of employees in the ‘Research’ department.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_30"
+ o:spid="_x0000_i1031" type="#_x0000_t75" style='width:451.5pt;height:78.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image050.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=105
+src="CompanySqlQueries_files/image051.jpg" v:shapes="Picture_x0020_30"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+23:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Count
+the number of distinct salary values in the database.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_31"
+ o:spid="_x0000_i1030" type="#_x0000_t75" style='width:327pt;height:69pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image052.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=436 height=92
+src="CompanySqlQueries_files/image052.png" v:shapes="Picture_x0020_31"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+24:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>For each department, retrieve the
+department number, the number of employees in the department, and their average
+salary.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_32"
+ o:spid="_x0000_i1029" type="#_x0000_t75" style='width:426pt;height:88.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image053.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=568 height=118
+src="CompanySqlQueries_files/image053.png" v:shapes="Picture_x0020_32"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+25:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>For each project, retrieve the
+project number, the project name, and the number of employees who work on that project<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_33"
+ o:spid="_x0000_i1028" type="#_x0000_t75" style='width:451.5pt;height:115.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image054.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=154
+src="CompanySqlQueries_files/image055.jpg" v:shapes="Picture_x0020_33"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+26:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>For each project on which more
+than two employees work, retrieve the project number, the project name, and the
+number of employees who work on the project.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EN-IN;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_34" o:spid="_x0000_i1027"
+ type="#_x0000_t75" style='width:450.75pt;height:103.5pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image056.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=601 height=138
+src="CompanySqlQueries_files/image057.jpg" v:shapes="Picture_x0020_34"><![endif]></span><span
+style='font-size:14.0pt;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>Query 27:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>For each project, retrieve the
+project number, the project name, and the number of employees from department 5
+who work on the project<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_35"
+ o:spid="_x0000_i1026" type="#_x0000_t75" style='width:451.5pt;height:92.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image058.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=123
+src="CompanySqlQueries_files/image059.jpg" v:shapes="Picture_x0020_35"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Query
+28:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-layout-grid-align:none;text-autospace:none'><span style='font-size:
+14.0pt;font-family:"Times New Roman","serif"'>For each department that has more
+than five employees, retrieve the department number and the number of its employees
+who are making more than £40,000<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:EN-IN;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_36"
+ o:spid="_x0000_i1025" type="#_x0000_t75" style='width:451.5pt;height:78pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="CompanySqlQueries_files/image060.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=104
+src="CompanySqlQueries_files/image061.jpg" v:shapes="Picture_x0020_36"><![endif]></span><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
